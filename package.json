@@ -1,0 +1,20 @@
+{
+  "name": "chatista",
+  "version": "1.0.0",
+  "description": "Chat app with node and Angular in pure TypeScript on both sides",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix frontend-app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://murarinayak@github.com/murarinayak/socket-io-typescript-chat.git"
+  },
+  "author": "Murari Nayak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murarinayak/socket-io-typescript-chat/issues"
+  },
+  "homepage": "https://github.com/murarinayak/socket-io-typescript-chat#readme"
+}
