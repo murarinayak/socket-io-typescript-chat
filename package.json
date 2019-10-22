@@ -4,7 +4,7 @@
   "description": "Chat app with node and Angular in pure TypeScript on both sides",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install --prefix server && npm install --prefix frontend-app",
+    "postinstall": "npm install --prefix server && npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
