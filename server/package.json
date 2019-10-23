@@ -1,12 +1,12 @@
 {
-  "name": "hello-nodejs-typescript",
+  "name": "hello-nodejs-typescrip",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index",
   "typings": "dist/index",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm install --prefix server",
+    "postinstall": "npm run build",
     "start": "npm run serve",
     "serve": "node dist/index",
     "watch-node": "nodemon dist/index",
