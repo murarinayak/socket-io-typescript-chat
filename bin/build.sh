@@ -8,6 +8,6 @@ mv ./server/dist ./dist
 echo 'install client related module';
 npm install --prefix client
 echo 'Build client code';
-npm run build --prefix client
+npm run build:prod --prefix client
 echo 'move files to top level';
 mv ./client/dist ./dist/public

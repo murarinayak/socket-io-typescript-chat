@@ -6,8 +6,7 @@
   "typings": "dist/index",
   "scripts": {
     "build": "tsc",
-    "buildit": "./bin/build-all.sh",
-    "postinstall": "./bin/build-all.sh",
+    "postinstall": "./bin/build.sh",
     "start": "npm run serve",
     "serve": "node dist/index",
     "watch-node": "nodemon dist/index",
