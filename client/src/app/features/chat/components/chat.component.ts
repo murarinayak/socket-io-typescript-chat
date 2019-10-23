@@ -2,16 +2,16 @@ import { Component, OnInit, ViewChildren, ViewChild, AfterViewInit, QueryList, E
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { MatList, MatListItem } from '@angular/material/list';
 
-import { Action } from '../../shared/model/action';
-import { Event } from '../../shared/model/event';
-import { Message } from '../../shared/model/message';
-import { User } from '../../shared/model/user';
-import { SocketService } from '../../shared/services/socket.service';
-import { DialogUserComponent } from '../dialog-user/dialog-user.component';
-import { DialogUserType } from '../../shared/constants';
+import { Action } from '../../../shared/model/action';
+import { Event } from '../../../shared/model/event';
+import { Message } from '../../../shared/model/message';
+import { User } from '../../../shared/model/user';
+import { SocketService } from '../../../shared/services/socket.service';
+import { DialogUserComponent } from '../../dialog-user/dialog-user.component';
+import { DialogUserType } from '../../../shared/constants';
 
 
-const AVATAR_URL = 'https://api.adorable.io/avatars/285';
+const AVATAR_URL = 'https://api.adorable.io/avatars/64';
 
 @Component({
   selector: 'tcc-chat',
