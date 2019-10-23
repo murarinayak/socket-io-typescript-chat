@@ -25,7 +25,7 @@ export class ChatServer {
     }
 
     private initRoutes() {
-        this.app.get('/', (req, res) => res.send('Hello World from TypeScript v5'));
+        // this.app.get('/', (req, res) => res.send('Hello World from TypeScript v5'));
     }
 
     private createApp(): void {
