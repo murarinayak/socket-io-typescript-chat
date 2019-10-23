@@ -8,8 +8,8 @@
     "build-ts": "tsc",
     "postinstall": "npm run build-ts",
     "start": "npm run serve",
-    "serve": "node dist/server",
-    "watch-node": "nodemon dist/server",
+    "serve": "node dist/index",
+    "watch-node": "nodemon dist/index",
     "watch-ts": "tsc -w"
   },
   "author": "",

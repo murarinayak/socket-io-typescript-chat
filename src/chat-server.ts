@@ -17,10 +17,15 @@ export class ChatServer {
         this.createServer();
         this.sockets();
         this.listen();
+        this.initRoutes();
     }
 
     public getApp(): express.Application {
         return this.app;
+    }
+
+    private initRoutes() {
+        this.app.get('/', (req, res) => res.send('Hello World from TypeScript'));
     }
 
     private createApp(): void {
