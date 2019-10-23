@@ -30,7 +30,7 @@ export class ChatServer {
 
     private createApp(): void {
         this.app = express();
-        this.app.use(express.static('public'));
+        this.app.use(express.static('dist/public'));
     }
 
     private createServer(): void {
