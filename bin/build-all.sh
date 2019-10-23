@@ -10,4 +10,4 @@ npm install --prefix client
 echo 'Build client code';
 npm run build --prefix client
 echo 'move files to top level';
-mv ./client/dist ./dist/public
+mv ./client/dist ./dist
