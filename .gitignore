@@ -1,5 +1,10 @@
 .idea/
 
+## Root level files to ignore
+node_modules
+dist
+# package-lock.json
+
 ## server
 /server/node_modules
 /server/dist
@@ -9,16 +14,10 @@
 # compiled output
 /client/dist
 /client/tmp
-
 # dependencies
 /client/node_modules
-
 # misc
 /client/npm-debug.log
-
 # e2e
 /client/e2e/*.js
 /client/e2e/*.map
-node_modules
-
-dist
