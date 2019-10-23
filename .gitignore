@@ -3,7 +3,6 @@
 ## Root level files to ignore
 node_modules
 dist
-package-lock.json
 
 ## server
 /server/node_modules
